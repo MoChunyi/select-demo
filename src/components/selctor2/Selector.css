@@ -1,0 +1,30 @@
+.selector {
+  border: 1px solid black;
+  height: 20px;
+  width: auto;
+  position: relative;
+}
+
+.selector_options__close {
+  position: absolute;
+  top: calc(100% + 2px);
+  height: 0;
+  display: none;
+}
+
+.selector_options__open {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  background-color: gray;
+  top: calc(100% + 2px);
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.selector_options-item {
+  cursor: pointer;
+}
+.selector_options div:nth-child(even) {
+  background: white;
+}
